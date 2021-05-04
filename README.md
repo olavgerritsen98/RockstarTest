@@ -20,7 +20,7 @@ Voor het aanmaken van de database is entityframework gebruikt die een context cl
 Als de Models worden aangepast dan zal er een nieuwe migration moeten worden uitgevoerd door het command: add-migration {naam}
 Hierdoor zal er een script gegenereerd worden dat uitgevoerd wordt als het command: update-database wordt aangeroepen.
 Als deze commands na elkaar worden aangeroepen dan zal de database geupdate worden. 
-Vergeet niet de connectionstring aan te passen!
+Vergeet niet de connectionstring aan te passen en er moet een instantie van sql server beschikbaar zijn op de pc.
 
 Voor het parsen van de JSON is er een JSONParser geschreven. Hierin wordt Linq gebruikt om makkelijk queries te schrijven en zo de database te vullen met nummers die het genre Metal bevatten en voor het jaar 2016 zijn uitgebracht.
 
