@@ -23,6 +23,10 @@ Als deze commands na elkaar worden aangeroepen dan zal de database geupdate word
 
 Voor het parsen van de JSON is er een JSONParser geschreven. Hierin wordt Linq gebruikt om makkelijk queries te schrijven en zo de database te vullen met nummers die het genre Metal bevatten en voor het jaar 2016 zijn uitgebracht.
 
+Ik heb als laatste nog een aantal unit tests geschreven om zo de functionaliteit van de repositories te testen. Hierin wordt Moq gebruikt om zo de classes los te kunnen testen.
+Wegens een gebrek aan tijd heb ik niet alle tests kunnen schrijven die ik had gewild. Sommige setup puntjes hebben langer geduurd dan verwacht.
+Ik heb hierdoor ook geen querystring search kunnen toevoegen waardoor de R in CRUD kan worden uitgevoerd zonder de querystring dus op id en alle.
+
 Er zijn de volgende calls die kunnen worden aangeroepen:
 
 GET: https://localhost:44337/api/Songs: Deze call zal alle songs weergeven in JSON.
